@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>移动微商城</title>
+<link  href="css/index.css" rel="stylesheet" type="text/css">
+<link href="css/title.css" rel="stylesheet" type="text/css">
+<link href="css/head.css" rel="stylesheet" type="text/css">
+<link href="css/lrtk.css" rel="stylesheet" type="text/css">
+<link href="css/product.css" rel="stylesheet" type="text/css" />
+<link href="css/base.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/idangerous.css">
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/koala.min.1.5.js"></script>
+<style type="text/css"> 
+.swiper-container {
+  width: 100%;
+  min-height: 50px;
+  color: #fff;
+  text-align: center;
+}
+.swiper-pagination-switch {
+display: inline-block;
+width: 10px;
+height: 10px;
+border-radius: 10px;
+background: #999;
+box-shadow: 0px 1px 2px #555 inset;
+margin: 0 3px;
+cursor: pointer;
+}
+.swiper-active-switch {
+background: #fff;
+}
+.pagination{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 30px;
+	text-align: center;
+	bottom: -13px;
+	width: 100%;
+	z-index: 100;
+}
+
+</style>
+
+</head>
+<body>
+
+
+<header>
+	<div class="top">
+		<img class="c_logo t_logo" src="images/chinaMobie.jpg">
+		<div class="head_login">
+			
+			<a id="login_loginout_a" href="#" onclick="clientLogin()" style="float: right;padding: 3px 0px;"><img id="login_loginout_img" style="width: 33px;" alt="登陆" src="images/person.png"></a>
+			<a style="float: right;padding:5px 3px;" href="#" class="logout" onclick="loginwd()">4G微店</a>
+		</div>
+	</div>
+</header>
+
+<style type="text/css">
+#qrcode_img{vertical-align: baseline;}
+</style>
+
+	<div class="container">
+		<!-- banner代码 开始 -->
+<div id="fsD1" class="focus" >  
+    <div id="D1pic1" class="fPic">  
+        <div class="fcon" style="display: none;">
+            <a target="_blank" href="#"><img src="images/nzdc.jpg" style="opacity: 1;width:100%; "></a>
+           
+        </div>
+        
+        <div class="fcon" style="display: none;">
+            <a target="_blank" href="#"><img src="images/banner6.jpg" style="opacity: 1; width:100%;"></a>
+            
+        </div>
+        
+        <div class="fcon" style="display: none;">
+            <a target="_blank" href="#"><img src="images/banner7.jpg" style="opacity: 1;width:100%; "></a>
+            
+        </div>
+        
+        <div class="fcon" style="display: none;">
+            <a target="_blank" href="#"><img src="images/banner5.jpg" style="opacity: 1;width:100%; "></a>
+            
+        </div>    
+    </div>
+    <div class="fbg">  
+    <div class="D1fBt" id="D1fBt">  
+        <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>1</i></a>  
+        <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>2</i></a>  
+        <a href="javascript:void(0)" hidefocus="true" target="_self" class="current"><i>3</i></a>  
+        <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>4</i></a>  
+    </div>  
+    </div>  
+    <span class="prev"></span>   
+    <span class="next"></span>    
+</div>  
+<script type="text/javascript">
+	Qfast.add('widgets', { path: "js/terminator2.2.min.js", type: "js", requires: ['fx'] });  
+	Qfast(false, 'widgets', function () {
+		K.tabs({
+			id: 'fsD1',   //焦点图包裹id  
+			conId: "D1pic1",  //** 大图域包裹id  
+			tabId:"D1fBt",  
+			tabTn:"a",
+			conCn: '.fcon', //** 大图域配置class       
+			auto: 1,   //自动播放 1或0
+			effect: 'fade',   //效果配置
+			eType: 'click', //** 鼠标事件
+			pageBt:true,//是否有按钮切换页码
+			bns: ['.prev', '.next'],//** 前后按钮配置class                          
+			interval: 3000  //** 停顿时间  
+		}) 
+	})  
+</script>
+<!-- banner代码 结束 -->
+  	
+
+
+
+
+
+
+  	<div class="icons">
+				<img src="images/icons-b.jpg">
+				<!-- 此处是8个图标链接，按顺序加入 -->
+				<div class="icon_link">
+                <a href="#" onclick="g4redirect(2);"></a>
+				<a href="#"></a>
+                <a href="#" onclick="g4redirect(4);"></a>
+				<a href="#"></a>
+				</div>
+	</div>
+		
+		<div class="wrap">
+  <div class="new-ct new-p-re">
+    <div class="new-search">
+      <div class="new-tab-type">
+        
+        </div>
+        <ul class="new-mu_l2w">
+          <li class="new-mu_l2">
+              <a href="商品列表.html" class="new-mu_l2a">
+                  <span class="new-mu_tmb">
+                      <img src="images/apple.jpg" height="100" width="100" />
+                  </span>
+                  <span class="new-mu_l2cw">
+                      <strong class="new-mu_l2h">
+                          华为 荣耀3C （白色）3G手机 TD-SCDMA/GSM 双卡双待 1G RAM 套装版
+                      </strong>
+                      <span class="new-mu_l2h">
+                          <span class="new-txt-rd2 new-elps">
+                              超值配件套装，火热抢购中！原厂贴膜+原厂耳机+8G卡！
+                          </span>
+                      </span>
+                      <span class="new-mu_l2c">
+                          <strong class="new-txt-rd2">
+                              ￥899.00
+                          </strong>
+                          <strong class="float" >
+                              <font class="new-txt-rd2 font11px ">45215</font>人购买
+                          </strong>
+                  </span></span>
+              </a>
+            </li>
+            <li class="new-mu_l2">
+              <a href="商品列表.html" class="new-mu_l2a">
+                  <span class="new-mu_tmb">
+                      <img src="images/apple.jpg" height="100" width="100" />
+                  </span>
+                  <span class="new-mu_l2cw">
+                      <strong class="new-mu_l2h">
+                          华为 荣耀3C （白色）3G手机 TD-SCDMA/GSM 双卡双待 1G RAM 套装版
+                      </strong>
+                      <span class="new-mu_l2h">
+                          <span class="new-txt-rd2 new-elps">
+                              超值配件套装，火热抢购中！原厂贴膜+原厂耳机+8G卡！
+                          </span>
+                      </span>
+                      <span class="new-mu_l2c">
+                          <strong class="new-txt-rd2">
+                              ￥899.00
+                          </strong>
+                          <strong class="float" >
+                              <font class="new-txt-rd2 font11px ">45215</font>人购买
+                          </strong>
+                 
+              </a>
+            </li>
+            <li class="new-mu_l2">
+              <a href="商品列表.html" class="new-mu_l2a">
+                  <span class="new-mu_tmb">
+                      <img src="images/apple.jpg" height="100" width="100" />
+                  </span>
+                  <span class="new-mu_l2cw">
+                      <strong class="new-mu_l2h">
+                          华为 荣耀3C （白色）3G手机 TD-SCDMA/GSM 双卡双待 1G RAM 套装版
+                      </strong>
+                      <span class="new-mu_l2h">
+                          <span class="new-txt-rd2 new-elps">
+                              超值配件套装，火热抢购中！原厂贴膜+原厂耳机+8G卡！
+                          </span>
+                      </span>
+                      <span class="new-mu_l2c">
+                          <strong class="new-txt-rd2">
+                              ￥899.00
+                          </strong>
+                          <strong class="float" >
+                              <font class="new-txt-rd2 font11px ">45215</font>人购买
+                          </strong>
+                 
+              </a>
+            </li>
+            <li class="new-mu_l2">
+              <a href="商品列表.html" class="new-mu_l2a">
+                  <span class="new-mu_tmb">
+                      <img src="images/apple.jpg" height="100" width="100" />
+                  </span>
+                  <span class="new-mu_l2cw">
+                      <strong class="new-mu_l2h">
+                          华为 荣耀3C （白色）3G手机 TD-SCDMA/GSM 双卡双待 1G RAM 套装版
+                      </strong>
+                      <span class="new-mu_l2h">
+                          <span class="new-txt-rd2 new-elps">
+                              超值配件套装，火热抢购中！原厂贴膜+原厂耳机+8G卡！
+                          </span>
+                      </span>
+                      <span class="new-mu_l2c">
+                          <strong class="new-txt-rd2">
+                              ￥899.00
+                          </strong>
+                          <strong class="float" >
+                              <font class="new-txt-rd2 font11px ">45215</font>人购买
+                          </strong>
+                 
+              </a>
+            </li>
+            
+        </ul>
+    </div>
+    
+
+</div>
+</div>
+		
+		
+		
+		
+	</div>
+
+</body></html>

@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0;
+	font-size:14px;
+	font-family:"微软雅黑";
+	list-style:none;
+	}
+a {
+	text-decoration:none;
+	color:#ffffff}
+.new-srch-pop {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    z-index: 50;
+    width: 190px;
+    min-height: 100%;
+    padding-bottom: 50px;
+    background-color: #666;
+    color: #FFF;
+}
+.new-pop-option {
+    padding: 0px 10px;
+    border-bottom: 1px solid #FFF;
+}
+.new-p-re {
+    position: relative;
+}
+.new-tbl-type {
+    display: table;
+    width: 100%;
+	text-align: center;
+    padding: 8px 0px;
+}
+.new-ul-lst .new-ul-li .new-li-a {
+    display: block;
+    padding: 8px 5px;
+    border-bottom: 1px solid #FFF;
+    background:url(../images/icon.png) no-repeat scroll 100% -1519px transparent;
+    font-size: 14px;
+    color: #FFF;
+}
+.new-ul-lst .new-ul-li .new-li-a.on {
+    background-position: 100% -1553px;
+}
+.new-pop-sel {
+    overflow-y: scroll;
+    height: 217px;
+    padding: 5px 10px 5px 3px;
+    border-bottom: 1px solid #FFF;
+    font-size: 12px;
+}
+.new-pop-sel li a{
+	display:block;
+	padding:6px 0 6px 20px;
+	color:#fff
+}
+
+
+.new-pop-sel li a span{
+	padding-left:3px
+}
+
+
+.new-pop-sel li a.on{
+	background:url(../images/icon.png) 0 -1579px no-repeat
+}
+
+
+.new-pop-sel li a.on span{
+	display:block;
+	background-color:#a09f9f
+}
+.new-abtn-slid {
+    position: absolute;
+    top: 40%;
+    left: 12px;
+    width: 58px;
+    height: 50px;
+    background: url(../images/icon_slid.png) no-repeat scroll 0px 0px transparent;
+}
+

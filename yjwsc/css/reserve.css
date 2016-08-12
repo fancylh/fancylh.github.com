@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+	font-size:14px;
+	color:#999;
+	font-family:"微软雅黑"}
+a {
+	text-decoration:none;
+	color:#ffffff;}
+
+.title {
+	text-align:center;
+	width:100%;
+	height:40px;
+	background:#f1f1f5;
+	font-size:16px;
+	font-weight:bold;
+	line-height:40px;
+	color:#343434;}
+.data {
+	width:94%;
+	height:35px;
+	line-height:35px;
+	border-bottom:1px solid #C8C7CC;
+	padding:0 3%;
+}
+.desk {
+	width:98%;
+	height:35px;
+	color:#ffffff;
+	line-height:35px;
+	background:#ef285a;
+	text-align:center;
+	margin:10px auto;
+	font-size:15px;
+	font-weight:bold;
+	border-radius: 2px;}
+.info {
+	width:85px;
+	float:left;}
+.info_input {
+	width:70%;
+	float:left;
+	height:35px;
+	line-height:35px;}
+.new-input {
+	height:25px;
+
+	color:#333;
+	margin-top:5px;
+	}
+.choose {
+	color:#333;
+	}
+.case {
+	margin-top:8px;
+	height:27px;}
+.address {
+	background:#f1f1f5;
+	}
+.check-button {
+	width:98%;
+	height:35px;
+	margin:0 auto 20px;
+	text-align:center;
+    background:#FBE5C4;
+	border-radius:3px;
+    color: #333;}
+.check-button-none {
+	background:none;
+	border:none;
+	color:#333;
+	font-size:15px;
+	line-height:35px;}
+.color {
+	color:#fff;}
+/*订单跟踪start*/
+.ddgz {
+	background:#ebebeb;
+	}
+.ddgz p {
+	color:#333;
+	line-height:30px;
+	}
+.ddgz .main {
+	width:95%;
+	margin:10px auto;
+	background:#f4f5f5;
+	border-right:1px solid #ccc;
+	border-left:1px solid #ccc;}
+.ddgz .main .main-wl-address {
+	background:url(../images/wl-icon2.png) no-repeat top left;}
+.ddgz .main ul li p {
+	border-bottom:1px solid #ccc;
+	margin-left:35px;
+}
+.ddgz .main-hd {
+	background:#fff;
+	padding-left:15px;
+	margin-bottom:2px;}
+.ddgz .main-wl-hd  {
+	height:40px;
+	line-height:40px;
+	color:#333;
+	background:#fff;
+	background:url(../images/wl-icon.png) top left no-repeat #fff;
+	}
+.ddgz .main-wl-hd p {
+	height:40px;	
+}
+.ddgz .main-wl-xinxi {
+	border:none;}
+.ddgz .main .main-wl-xinxi {
+	border:none;}
+.ddgz .main .date {
+	color:#666;
+	font-size:12px;}
+/*订单跟踪end*/

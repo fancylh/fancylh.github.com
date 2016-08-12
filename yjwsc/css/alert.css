@@ -1,0 +1,39 @@
+.pop {
+	position: absolute;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .7);
+	z-index: 9999;
+}
+
+.alert_wrap {
+	position: relative;
+	margin: 50px auto;
+	width: 280px;
+	background-color: #f8f7f5;
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px 0 30px;
+}
+
+.alert_msg {
+	color: #565a5c;
+	margin: 10px auto 15px;
+	font-size: 14px;
+	width: 60%;
+}
+
+.alert_btn {
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	background-color: #1E90FF;
+	border-radius: 5px;
+	text-decoration: none;
+	cursor: auto;
+}

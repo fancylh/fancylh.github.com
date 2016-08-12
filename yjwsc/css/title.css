@@ -1,0 +1,21 @@
+.chd {
+  background-color: #f2f2f2;
+  color: #707070;
+  font-size: 15px;
+  padding: 5px 1%;
+}
+.chd .t_logo {
+  width: 45px;
+}
+.t_logo {
+  display: inline-block;
+  width: 30px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.chd span {
+  float: right;
+  color: #707070;
+  font-size: 12px;
+  line-height: 45px;
+}
