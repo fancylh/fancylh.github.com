@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+	font-size:14px;
+	font-family:"微软雅黑";
+	list-style:none;}
+a {
+	text-decoration:none;}
+body {
+	background:#ffffff;
+	}
+input {
+	border:1px #ddd solid;}
+.biaodan-hd {
+	padding-top:0px;
+	font-size:16px;
+	color:#fff;
+	line-height:35px;}
+.wrap {
+	width:100%;
+	min-width:320px;}
+.title {
+	width:100%;
+	background:#e43a3d;
+	height:35px;
+	position:relative;}
+.title .new-a-back {
+	display:block;
+	background:url(../images/back.png) no-repeat;
+	width:10px;
+	height:25px;	
+	overflow:hidden;
+	white-space:nowrap;
+	text-indent:30px;
+	position:absolute;
+	left:10px;
+	top:6px;
+	background-size:8px 20px;}
+.title input {
+	text-align:center;
+	margin:0 auto;
+	width:40%;
+	}
+.title h2 {
+	text-align:center;
+	padding-top:6px;
+	color:#ffffff;
+	font-size:16px;}
+.new-a-ewm {
+    position: absolute;
+    top: 4px;
+    right: 7px;
+    width: 37px;
+    height: 30px;
+}
+.new-a-ewm span {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin: 3px 0px 0px 8px;
+    background:url(../images/erweima.png) no-repeat ;
+	background-size:21px 21px;
+    text-indent: -9999px;
+}
+.new-s-srch {
+    position: absolute;
+    top: 6px;
+    width:30px;
+    height: 21px;
+    border-left: 1px solid #CCC;
+    background: -moz-linear-gradient(center top , #F7F7F7, #EFEFEF) repeat scroll 0% 0% transparent;}
+.new-s-srch span {
+    display: block;
+    width:30px;
+    height: 21px;
+    background:url(../images/icon.png) no-repeat scroll 5px -1058px transparent;
+
+}
+.logo {
+	width:100%;
+	height:35px;
+	border-bottom:2px dotted #fac84b;
+	padding-bottom:5px;
+	background:url(../images/logo.png) no-repeat center;
+	margin-bottom:2px;}
+.banner img {
+	width:100%;
+	border:none;}
+
+/*.icon {
+	width:100%;}
+.icon ul {
+	width:100%;}
+.icon ul li {
+	width:33%;
+	float:left;
+	text-align:center;}
+.foot {
+	width:100%;}
+.foot .foot_title img{
+	width:100%;}
+.foot .foot_banner img {
+	width:100%;}*/
+/* foot strat */
+.login-area {
+    padding-bottom: 1.8em;
+    text-align: center;
+    width: 100%;
+    max-width: 640px;
+    background-color: #FFF;
+    margin: 0px auto;
+}
+.login-area .login {
+    padding: 0.55em 0.71em;
+    border-bottom: 1px solid #E5E5E5;
+    text-align: left;
+}
+.login-area a {
+    
+    color: #666;
+}
+.login-area .lg-bar {
+    display: inline-block;
+    margin: 0px 2px;
+    color: #666;
+}
+.new-fr {
+    float: right;
+}
+.login-area .login {
+    text-align: left;
+}
+.space {
+	margin-top:10px;}
+/* foot end */    

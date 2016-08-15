@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	padding:0;
+	margin:0;
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#999;}
+a {
+	text-decoration:none;
+	color:#ffffff;}
+.wrap {
+	width:100%;
+	}
+.title {
+	text-align:center;
+	width:100%;
+	height:40px;
+	background:#f1f1f5;
+	font-size:16px;
+	font-weight:bold;
+	line-height:40px;
+	color:#343434;
+	border-bottom:1px solid #C8C7CC;
+	}
+.info {
+	}
+.info_title {
+	width:94%;
+	height:30px;
+	background:#f1f1f5;
+	border-bottom:1px solid #C8C7CC;
+	line-height:30px;
+	padding:0 3%;
+	}
+.text {
+	width:94%;
+	line-height:30px;
+	border-bottom:1px solid #f1f1f5; 
+	margin:0 auto;
+	}
+.text p {
+	color:#333;}
+.text .text1 {
+	
+	
+	}
+.text .text2 {
+	}
+.desk {
+	width:98%;
+	height:30px;
+	color:#ffffff;
+	line-height:30px;
+	background:#cc0000;
+	text-align:center;
+	margin:10px auto;
+	font-size:15px;
+	font-weight:bold;
+	border-radius: 2px;}
+.text input {
+	width:80%;
+	margin:5px;
+	color:#333;
+	border:1px solid #CCC;}
+/*提交成功strat*/
+.main {
+	width:90%;
+	margin:0 auto;}
+.main-top {
+	width:95%;
+	margin:20px auto;
+	border:1px solid #c8bca8;
+	background:#fffdf7;
+	border-radius:5px;
+	padding-top:10px;
+	}
+.main-top ul {
+	width:90%;
+	margin:0 auto;}
+.main-top ul li {
+	color:#333;
+	height:25px;
+	font-size:15px;
+	}
+.main-top ul li:first-child{
+	color:#F00;}
+.main-top ul li span {
+	color:#f00;
+	font-weight:bold;}
+.main-top ul li font {
+	font-weight:bold;
+	color:#444;}
+.main-bottom {
+	width:95%;
+	margin:20px auto;
+	border:1px solid #c8bca8;
+	background:#f0e9d4;
+	border-radius:5px;
+	}
+.main-bottom p {
+	width:90%;
+	margin:0 auto;
+	padding:10px 0px;
+	color:#333;
+	font-size:15px;}
+.check-button {
+	width:85%;
+	height:35px;
+	margin:0 auto 20px;
+	text-align:center;
+    background-image: linear-gradient(to bottom, #FBE5C4 0px, #ebbc74 100%);
+	border-radius:5px;
+	box-shadow:0 2px 2px 0 #ccc;
+    color: #333;}
+.check-button-none {
+	background:none;
+	border:none;
+	color:#333;
+	font-size:15px;
+	line-height:35px;}
+/*提交成功end*/
+
