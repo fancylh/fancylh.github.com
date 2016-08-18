@@ -268,7 +268,7 @@ input.wd100, button.wd100{
 .line {
 	position:absolute;
 	top:6%;
-	z-index:199;
+	z-index:10;
 	width: 100%;
     text-align: right;}
 .line img {
