@@ -1,0 +1,280 @@
+@import url("animation.css");
+* {
+	margin:0px;
+	padding:0px;
+	text-decoration:none;
+	font-size:15px;
+	list-style:none;
+    font-family: "Microsoft Yahei";
+	}
+.position {
+	position:absolute;
+	z-index:1;
+	}
+.page {
+	width:100%;
+	height:100%;
+	background-image:url(../img/bg01.jpg);
+	background-size:cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position:absolute;
+	text-align: center;}
+.page2 {
+	background-image:url(../img/bg02.jpg);
+	}
+.page3 {
+	background-image:url(../img/bg03.jpg);
+	}
+.page4 {
+	background-image:url(../img/bg04.jpg);
+	}
+.page6 {
+	background-image:url(../img/bg06.jpg);
+	}
+.page7 {
+	background-image:url(../img/bg07.jpg);
+	}
+.page8 {
+	background-image:url(../img/bg08.jpg);
+	}
+.page9 {
+	background-image:url(../img/bg09.jpg);
+	}
+.page5 {
+	background-image:url(../img/bg05.jpg);
+	}
+.page12 {
+	background-image:url(../img/bg12.jpg);
+	}
+.page16 {
+	background-image:url(../img/bg16.jpg);
+	}
+.page20 {
+	background-image:url(../img/bg20.jpg);
+	}
+.page22 {
+	background-image:url(../img/bg22.jpg);
+	}
+.page23 {
+	background-image:url(../img/bg23.jpg);
+	}
+.page24 {
+	background-image:url(../img/bg24.jpg);
+	}
+.page26{
+	background-image:url(../img/bg26.jpg);
+	}
+img {
+	width:100%;}
+.btn{}
+.btn a {
+	display:block;
+	position:absolute;
+	z-index:1;}
+.btn a.btn_left {
+	width:36%;	
+	bottom:9%;
+	left:12%;
+	}
+.btn a.btn_left2{
+	bottom:8%;
+	left:9%;}
+.btn a.btn_left3{
+    left: 25%;
+	width:32%;}
+.btn a.btn_left4 {
+	    bottom: 10%;
+        left: 24%;
+}
+.btn a.btn_left5 {}
+.btn a.btn_left6 {}
+.btn a.btn_right {
+	width: 28%;
+    bottom: 14.4%;
+    right: 13%;}
+.btn a.btn_right2 {
+	 bottom: 18%;
+     right: 7%;
+	}
+.btn a.btn_right3 {
+	 bottom: 18%;
+     right: 7%;
+	}
+.btn a.btn_right4 {
+	bottom: 7.2%;
+    right: 17.2%;
+    width: 14%;}
+.btn a.btn_right5 {}
+.btn a.btn_right6 {}
+
+.btn_right_bt{
+	width: 11%;
+    bottom: 7.5%;
+    right: 10%;
+	}
+.btn_right_bt2 {
+	bottom: 8%;
+    right: 22%;}
+.btn_right_bt3{
+	bottom: 8%;
+    right: 22%;}
+.data {
+	position:absolute;
+	z-index:2;
+	width:100%;
+	top:56%;}
+.pic {
+	position:absolute;
+	z-index:2;
+	width:100%;
+	top:46%;
+	}
+
+.data p, .pic ul, .text_bt p, .team, .card_text {
+	width:80%;
+	margin:0 auto 10px;;}
+.data p span {
+	height:40px;
+	display:block;
+	border:2px solid #06777d;
+	border-radius:3px;}
+.moble, .code {
+	border:2px #7ad3e3 solid;
+	background:#fff;
+	line-height:36px;
+	height:36px;
+	border-radius:3px;
+	text-align:center;
+	font-size:16px;
+	
+	}
+.moble {
+	width:99%;}
+.code {
+	width:98%;}
+span.w60 {
+	width:60%;
+	}
+.gain {
+	float:right;
+	color:#fdf759;
+	display:block;
+	width:70px;}
+.left {
+	float:left;}
+.pic ul li {
+	width:50%;
+	float:left;}
+.red {
+	color:#ff466f;}
+.text_bt {
+	bottom:1%;
+	width:100%;}
+.text_bt p {
+	color:#fff;
+	text-align:center;
+	}
+.head {
+	background:#00bfd2;
+	height:50px;
+	line-height:50px;}
+.head a {
+	display:block;
+	color:#fff;
+	font-weight:bold;
+	}
+.right {
+	float:right;}
+.w100 {
+	width:100%;}
+.head span {
+	display:block;
+	width:20%;
+	margin-top:10px;}
+.head a.editing {
+	border:2px solid #fff;
+	line-height:32px;
+	border-radius:8px;
+	margin-top:8px;
+	margin-right:4px;
+    padding:0px 2px;
+	}
+.team p {
+	
+	text-align:center;}
+.text {
+	background:#fff;
+	border:1px solid #7ad3e3;
+	border-radius:5px;
+	line-height:50px;}
+.text input {
+	color:#9f9f9f;}
+.top10 {
+	top:10%;}
+.arrow {
+	z-index:99;
+	right:8%;
+	top:8%;
+	width:20%;
+	}
+.arrow-up {
+    height: auto;
+    width: 20%;
+    position: absolute;
+    left: 45%;
+    top: 82%;
+    margin-left: -12px;
+    z-index: 99;
+}
+.card {
+	top:30%;
+	clear:both;
+	}
+.card_text {
+	border:2px solid #7ad3e3;
+	border-radius:8px;
+	background:#fff;
+	padding:2%;
+	}
+.pic_face {
+	width:30px;
+	float:left;
+	display:block;}
+.card_text li {
+	width:100%;
+	height:40px;
+	line-height:40px;
+	color:#72757a;}
+.clear {
+	clear:both;}
+.green {
+	color:#2e8095;}
+.foot {
+	position:relative;}
+.foot p {
+	bottom:10%;
+	position:absolute;
+	z-index:9;
+	padding:4px;
+	line-height:18px;
+	width:70%;
+	color:#fff;}
+	
+.foot .img {
+	width:30px;
+	display:block;
+	float:left;
+	margin-right:2px;}
+.yellow {
+	color:yellow;}
+.button {
+	position:relative;}
+.tips {
+	position:absolute;
+	right:14px;
+	bottom:25px;}
+.music {
+	right:0%;
+	width:10%;
+	top:10%;}
