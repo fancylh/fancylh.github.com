@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#fff;}
+.banner {
+	font-size:0px;}
+img {
+	border:none;
+	}
+.clear {
+	clear:both;}
+.wrap {
+	min-width:320px;
+	max-width:640px;
+	margin:0 auto;
+	}
+.wrap .banner img, .main_bd a img{
+	width:100%;}
+.main_hd, .main_ft {
+	position:relative;
+
+	}
+
+.main_hd img, .main_ft img {
+	position:absolute;
+	width:100%;
+	z-index:-9988;
+	height:168px;}
+.main_ft img {
+	min-height:230px;}
+.main_hd img {
+	}
+p {
+	margin:0 8px;
+	line-height:28px;}
+.main_ft h3 {
+	text-align:center;
+	font-size:15px;
+	line-height:38px;}
+.main_hd p{
+	text-align:center;}
+.main_bd {
+	margin-top:10px;}
+.main_ft p {
+	line-height:22px;}
+.main_bd p {
+	color:#666;
+	line-height:22px;}
+.main_ft .info {
+	width:90%;
+	margin:10px auto;
+	clear:both;
+	text-align:center;}
+.main_ft .info dl {
+	width:48%;
+	float:left;
+	}
+.main_ft .info dl input {
+	width:100%;
+	color:#666;}
+.main_ft .info dl.last {
+	margin-left:4%;}
+.btn {
+	width:90%;
+	margin:8px auto 0px;
+	
+	}
+.btn button {
+	width:100%;
+	background:#e62a7f;
+	border-radius:3px;
+	border:1px solid #e62a7f;
+	line-height:25px;
+	letter-spacing:2px;
+	}
+.center {
+	text-align:center;
+	font-size:12px;}
+/*视频样式开始*/
+.vodel {
+	position:relative;}
+.vodel img {
+	position:absolute;
+	width:100%;
+	height:200px;}
+/*视频样式结束*/
+/*确认页面开始*/
+.position {
+	position:relative;
+	}
+.position img {
+	position:absolute;
+	z-index:-9888;
+	width:100%;
+	min-height:450px;}
+.position h1, h1 span {
+	text-align:center;
+	font-size:15px;
+	line-height:25px;
+	/*background:#43277a;*/
+	}
+.position .bg {
+	width:100%;
+	height:50px;
+	background:rgba(0, 0, 0, 0.2)!important;
+    filter:Alpha(opacity=20); 
+	background:#000; /*　使用IE专属滤镜实现IE背景透明*/
+	}
+.position .bg h1, .position .bg h1 span {
+	position:relative;}
+
+.head {
+	padding-top:10px;
+	}
+h1 span {
+	color:#e62a7f;}
+.position p {
+	margin-top:16px;
+	line-height:22px;}
+.true_btn {
+	width:240px;
+	margin:10px auto;}
+.true_btn input.submit {
+	background:#e62a7f;
+	width:200px;
+	border:1px #e62a7f solid;
+	border-radius:3px;
+	margin-left:10px;}
+
+/*确认页面结束*/
