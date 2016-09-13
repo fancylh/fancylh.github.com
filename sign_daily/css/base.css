@@ -1,0 +1,87 @@
+* {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#fff;
+	}
+a {
+	text-decoration:none;}
+
+img {
+	border:0px;
+	vertical-align:middle;}
+input {
+	vertical-align:middle;}
+.clear {
+	clear:both;}
+body {
+	width:100%;
+	background:#2191b7;}
+.banner img, .foot img {
+	width:100%;}
+.banner {
+	margin-top:10px;}
+.head {
+	height:30px;
+	padding-top:10px;
+	clear:both;
+	margin:0 2%;}
+.head a {
+	background:#fdaf31;
+	border-radius:15px;
+	padding:2px 10px;
+	font-size:16px;
+	}
+.left {
+	float:left;}
+.right {
+	float:right;}
+.head img {
+	width:26px;
+	height:20px;
+	vertical-align:middle;}
+.main {
+	margin:2%;
+	background:#1969a4;
+	border-radius:5px;
+	padding:10px;
+}
+.main .mainTitle {
+	text-align:center;
+	font-size:18px;}
+.main .mainTitle h3, h3 span {
+	font-size:18px;}
+.kqData p {
+	line-height:28px;}
+.jf {
+	background:#fff;}
+.jf ul li img {
+	width:30px;
+	height:30px;
+	vertical-align:middle;}
+.jf ul li a {
+	color:#000;}
+.remind {
+	position:relative;}
+.remind a {
+	position:absolute;
+	left:8px;
+	top:0px;
+	font-size:16px;}
+.remind a img {
+	width:28px;
+	height:28px;
+	vertical-align:middle;}
+.remind p {
+	text-align:center;
+	line-height:24px;
+	font-size:16px;
+	}
+.remind p input {
+	width:24px;
+	height:24px;
+	}
+.foot {
+	padding:0px 2%;}
