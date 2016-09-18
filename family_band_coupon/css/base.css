@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background:#35b597;}
+* {
+	margin:0px;
+	padding:0px;
+	font-family:"微软雅黑";
+	list-style:none;}
+.clear {
+	clear:both;}
+.wrap {
+	max-width:800px;
+	min-width:320px;
+	margin:0 auto;}
+.banner img, .bottom img {
+	border:0px;
+	width:100%;}
+.main {
+	background:#bae3f9;
+	clear:both;}
+.main ul.data {
+	width:300px;
+	margin:0 auto;
+	}
+.main ul.data li {
+	clear:both;
+	padding-top:10px;
+	}
+.main ul.data input {
+	width:144px;
+	line-height:34px;
+	border:2px #178ac0 solid;
+	border-radius:8px;
+	text-align:center;
+	color:#500f0f;}
+.main ul.data .btn, .main ul.data .text {
+	float:left;}
+.main ul.data .text {
+	padding-left:8px;
+	}
+.main ul.data .text p.blue{
+	line-height:20px;
+	color:#0085d0;
+	font-size:12px;}
+.main ul.data .text p.big {
+	font-size:20px;}
+.main ul.data .text p.red {
+	color:#e40077;
+	font-size:20px;}
+.bz p.position {
+	position:absolute;
+	left:4%;
+	top:10%;
+	color:#500f0f;
+	font-size:14px;
+	width:70%;
+	line-height:20px;}
+.bz {
+	position:relative;}
+.bottom {
+	background:#35b597;
+	}
+.bottom P {
+	color:#fff;
+	padding:8px;
+	font-size:16px;}
+.main ul.data .scan {
+	float:left;
+	width:42px;
+	height:42px;}

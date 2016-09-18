@@ -1,0 +1,140 @@
+* {
+	margin:0px;
+	padding:0px;
+	font-size:13px;
+	color:#f5f5f5;
+	font-family:"微软雅黑";}
+.wrap {
+	max-width:640px;
+	min-width:320px;
+	margin:0 auto;}
+input, button {
+	cursor:pointer;}
+.banner img, .date img{
+	width:100%;
+	}
+.botton {
+	position:relative;
+	max-height:293px;
+	min-height:147px;}
+.botton img {
+	position:absolute;
+	z-index:-9999;
+	max-height:293px;
+	min-height:147px;}
+.position {
+	position:relative;}
+.position input {
+	position:absolute;
+	width:45%;
+	height:35px;
+	background:#feff12;
+	left:26%;
+	top:55%;
+	border:none;
+	color:#ef1c23;
+	font-weight:bold;
+	font-size:18px;
+	border-radius:3px;}
+.date {
+	position:relative;
+	background:#ffd801;
+	}
+.date img {
+	position:absolute;
+	z-index:-9888;}
+.date p {
+	color:#000;
+	font-size:15px;
+	text-align:center;
+	font-weight:bold;
+	line-height:30px;}
+.date span.shijian {
+	background:#fff;
+	color:#000;
+	padding:4px 10px;
+	color:red;}
+.btn {
+	background:#ffdf01;
+	text-align:center;
+	padding-top:10px;}
+.btn input {
+	width:80%;
+	height:30px;
+	border-radius:3px;
+	background:#ef1c23;
+	color:#f0f61f;
+	border:none;
+	font-weight:bold;
+	font-size:15px;
+	cursor:pointer;
+	}
+.hdsm {
+	background:#2a2a2a;}
+.hdsm p {
+	padding:5px 10px;	
+	}
+.zj {
+	position: absolute;  
+	z-index: 9999; 
+	overflow: hidden; 
+	transform-origin: 0px 0px 0px; 
+	opacity: 1; 
+	transform: scale(1, 1);  
+	top:25%;
+	margin:0 auto;
+
+	}
+.zjbg {
+	position:relative;}
+.text {
+	position:absolute;
+	padding: 20px;
+    text-align: center;
+	top:2%;
+	}
+.text h2 {
+	font-size:18px;
+	}
+.width {
+	padding:10px;}
+.data {
+	position:absolute;
+	top:58%;
+	left:40%;
+	text-align:center;}
+.data span {
+	font-size:28px;
+	color:#ff513b;
+	font-weight:bold;}
+.zjbtn {
+	position:absolute;
+	bottom:20px;
+	width:100%;
+	left:10%;}
+.zjbtn input {
+	width:80%;
+	height:28px;
+	background:#fefd01;
+	border:none;
+	border-radius:3px;
+	color:#f7303c;
+	font-size:20px;
+	font-weight:bold;
+}
+.del {
+	position:absolute;
+	top:14px;
+	right:10px;
+	width:30px;
+	height:34px;
+	z-index:99999;
+	}
+.del input {
+	background:url(../images/del.jpg) no-repeat 0 0;
+	width:30px;
+	height:34px;
+	border:none;
+	}
+p.algin {
+	text-align:left;}
